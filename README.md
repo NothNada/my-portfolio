@@ -37,4 +37,4 @@ Este é o repositório do meu portfólio pessoal desenvolvido com [Next.js](http
 Acesse `http://localhost:3000` no navegador.
 
 
-Feito com 💻 por \[Seu Nome].
+Feito com 💻 por Rubens.
