@@ -36,8 +36,5 @@ Este é o repositório do meu portfólio pessoal desenvolvido com [Next.js](http
 
 Acesse `http://localhost:3000` no navegador.
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 Feito com 💻 por \[Seu Nome].
