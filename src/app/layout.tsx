@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Rubens | Desenvolvedor Full Stack',
     description: 'Veja meu portfólio com projetos e tecnologias modernas.',
-    images: ['https://rubens-fullstack.vercel.app//og-image.png'],
+    images: ['https://rubens-fullstack.vercel.app/og-image.png'],
   },
 };
 
@@ -51,6 +51,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+
+
+      <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -60,8 +66,13 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <NavigationBar/>
-          {children}
+          <div className="min-h-screen">
+            <NavigationBar/>
+            <main>
+              {children}
+            </main>
+          </div>
+          
         </ThemeProvider>
       </body>
     </html>

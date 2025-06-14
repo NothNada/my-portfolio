@@ -38,7 +38,7 @@ export default function NavigationBar() {
 
     return (
         <header
-            className={"fixed w-full z-50 transition-all duration-300 bg-black/10 shadow-md backdrop-blur-md border-b-2 border-white/5"}
+            className="fixed w-full z-50 transition-all duration-300 bg-black/10 shadow-md backdrop-blur-md border-b-2 border-white/5"
         >
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center py-4">
